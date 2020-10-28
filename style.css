@@ -48,6 +48,13 @@ header li {
 header li:hover {
   color: #00F3BB;
   text-decoration: line-through; }
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase; }
+header a:hover {
+  color: #00F3BB;
+  text-decoration: line-through; }
 
 /* TITULO */
 .intro {
@@ -92,7 +99,7 @@ header li:hover {
 .episodios {
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  padding: 1em 2em;
+  padding: 1em;
   height: max-content;
   background-image: linear-gradient(225deg, #0000FF 100%, #0000A3 100%);
   transform: skew(0deg, -8deg);
@@ -103,26 +110,26 @@ header li:hover {
   .episodios .fondo {
     position: absolute;
     top: 60vh;
-    bottom: 0%;
+    bottom: 0;
     right: 0;
     left: 0;
     width: 100%;
-    padding: 30px 0; }
+    padding: 5px; }
   .episodios h2 {
     transform: skew(0deg, 8deg);
-    margin-left: -1em;
+    margin-left: .3em;
     margin-top: 10%;
-    font-weight: 100; }
+    font-weight: 50;
+    font-size: 36px; }
   .episodios .podcasts {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10%;
-    transform: skew(0deg, 8deg); }
+    padding-top: 5%;
+    transform: skew(0deg, 8deg);
+    margin-bottom: 40%; }
     .episodios .podcasts iframe {
-      width: 90vw;
-      height: 60vh;
-      right: 1em; }
+      margin: 6px auto 6px auto; }
 
 /* DE DONDE VENIMOS */
 .venimos {
@@ -134,16 +141,19 @@ header li:hover {
     font-size: 36px;
     font-weight: 100;
     text-align: left;
-    padding: 1em; }
+    padding: .4em; }
   .venimos img {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 50%;
+    margin-top: -20vh;
     width: 100vw;
-    height: 9.5%; }
+    height: 9.5%;
+    z-index: 99; }
   .venimos p {
-    padding: 1em; }
+    margin: 1.2em;
+    margin-bottom: 3em; }
 
 /*INVITADAS*/
 .invitadas h2 {
@@ -153,30 +163,69 @@ header li:hover {
   text-align: left;
   margin: .3em; }
 .invitadas img {
-  display: inline-block;
+  display: block;
   width: 100vw;
-  height: 9.5%; }
+  height: auto; }
 
 /* ALGUNO DE NUESTROS TEMAS */
 .temas {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  /*
+  img{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;    
+      width: 30vw;
+      height: 9.5%
+  }*/ }
   .temas h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 36px;
     font-weight: 200;
     margin: .4em; }
+  .temas .nuestros_temas {
+    margin-top: 2em; }
+    .temas .nuestros_temas .nuestros_temas1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+      height: 9.5%;
+      margin-bottom: 2em; }
+    .temas .nuestros_temas .nuestros_temas2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+      height: 9.5%;
+      margin-bottom: 2em; }
+    .temas .nuestros_temas .nuestros_temas3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+      height: 9.5%;
+      margin-bottom: 2em; }
+    .temas .nuestros_temas .nuestros_temas4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+      height: 9.5%;
+      margin-bottom: 2em; }
   .temas h4 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
-    font-weight: 500; }
-  .temas img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30vw;
-    height: 9.5%; }
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1em; }
 
 /* NOVEDADES */
 .novedades {
@@ -190,10 +239,10 @@ header li:hover {
     text-align: center;
     margin: .3em;
     color: white;
-    margin-bottom: 20%; }
+    margin-bottom: 10%; }
   .novedades .escucha {
-    margin: 10px;
-    margin-bottom: 20%;
+    margin: 5vw;
+    margin-bottom: 10%;
     width: 18em;
     height: 3em;
     font-family: 'IBM Plex Mono', monospace;
