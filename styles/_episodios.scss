@@ -1,0 +1,148 @@
+/* EPISODIOS */
+.episodios{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    padding: 1em;
+    height: max-content;
+    background-image: linear-gradient(225deg, #0000FF 100%, #0000A3 100% );
+    transform: skew(0deg, -8deg);
+    transform-origin: top left;
+    z-index: -100;
+    margin-top: 20%;
+    
+    .fondo{
+        position: absolute;
+        top: 60vh;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        padding: 5px;
+    }
+
+    h2{
+        transform: skew(0deg, 8deg);
+        margin-left: .3em;
+        margin-top: 10%;
+        font-weight: 50;
+        font-size: 36px;
+    }
+    
+    /* PODCASTS */   
+    .podcasts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+    transform: skew(0deg, 8deg);
+    margin-bottom: 40%;
+    
+        iframe{
+            margin: 6px auto 6px auto;
+            border: 0;
+            width: 100%;
+            
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+        /* EPISODIOS */
+    .episodios{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: white;
+        padding: 1em;
+        height: max-content;
+        background-image: linear-gradient(225deg, #0000FF 100%, #0000A3 100% );
+        transform: skew(0deg, -8deg);
+        transform-origin: top left;
+        z-index: -100;
+        margin-top: 12%;
+        
+        .fondo{
+            position: absolute;
+            top: 60vh;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px;
+        }
+
+        h2{
+            transform: skew(0deg, 8deg);
+            margin-left: 1em;
+            margin-top: 8%;
+            margin-bottom: 0.5em;
+            font-weight: 50;
+            font-size: 36px;
+        }
+        
+        /* PODCASTS */   
+        .podcasts{
+        display: grid;
+        display: -ms-grid; /* IE 10 */
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        justify-content: center;
+        grid-gap: 2em 2em;
+        align-self: center;
+        padding: 0;
+        margin-bottom: 8em;
+            iframe{
+                width: 45vw;
+            }
+        }
+    }
+} 
+
+
+@media screen and (min-width: 1200px){
+        /* EPISODIOS */
+    .episodios{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: white;
+        padding: 1em;
+        height: max-content;
+        background-image: linear-gradient(225deg, #0000FF 100%, #0000A3 100% );
+        transform: skew(0deg, -8deg);
+        transform-origin: top left;
+        z-index: -100;
+        margin-top: 15%;
+        
+
+        .fondo{
+            position: absolute;
+            top: 60vh;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px;
+        }
+
+        h2{
+            transform: skew(0deg, 8deg);
+            margin-left: 3.6em;
+            margin-top: 10%;
+            margin-bottom: 1em;
+            font-weight: 50;
+            font-size: 48px;
+        }
+        
+        /* PODCASTS */   
+        .podcasts{
+        display: grid;
+        display: -ms-grid; /* IE 10 */
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        justify-content: center;
+        grid-gap: 4.5em 3.5em;
+        align-self: center;
+        padding: 0;
+        margin-bottom: 8em;
+            iframe{
+                width: 40vw;
+                
+            }
+        }
+    }
+}
