@@ -33,7 +33,7 @@ header div {
             justify-content: right;
     -ms-flex-line-pack: center;
         align-content: center;
-    background-color: blue;
+    background-color: #0000EC;
     width: 320px;
     height: 224px;
     right: 0; }
@@ -52,7 +52,7 @@ header div {
     padding: 0em 1em;
     list-style: none;
     line-height: 1em;
-    color: white;
+    color: #FFFFFF;
     list-style: none;
     margin-top: 1.5em;
     text-align: left; }
@@ -60,7 +60,7 @@ header div {
     color: #00F3BB;
     text-decoration: line-through; }
   header div a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase; }
   header div a:hover {
@@ -111,7 +111,7 @@ header div {
     background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
     -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: #FFFFFF;
     border: none; }
   .intro button:active {
     background-color: grey; }
@@ -164,7 +164,7 @@ header div {
       background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
       -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
               box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
-      color: white;
+      color: #FFFFFF;
       border: none; }
     .intro button:active {
       background-color: grey; } }
@@ -216,7 +216,7 @@ header div {
       background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
       -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
               box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
-      color: white;
+      color: #FFFFFF;
       border: none; }
     .intro button:active {
       background-color: grey; } }
@@ -350,7 +350,7 @@ header div {
       margin-top: 10%;
       margin-bottom: 1em;
       font-weight: 50;
-      font-size: 48px; }
+      font-size: 3em; }
     .episodios .podcasts {
       display: grid;
       display: -ms-grid;
@@ -368,11 +368,10 @@ header div {
 /* DE DONDE VENIMOS */
 .venimos {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
   text-align: justify; }
   .venimos h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 200;
     text-align: left;
     padding: .4em; }
@@ -391,11 +390,11 @@ header div {
     -webkit-transform: translateY(-120px);
             transform: translateY(-120px);
     margin-bottom: -8em;
-    /*margin-top: -20vh;*/
     width: 100vw;
     height: 9.5%;
     z-index: 99; }
   .venimos p {
+    font-size: 0.875em;
     margin: 1.2em;
     margin-bottom: 3em; }
 
@@ -403,13 +402,12 @@ header div {
   /* DE DONDE VENIMOS */
   .venimos {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
     text-align: justify;
     display: grid;
     grid-template-columns: 1fr 1fr 50px; }
     .venimos h2 {
       font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 36px;
+      font-size: 2.25em;
       font-weight: 100;
       text-align: left;
       padding: .4em; }
@@ -431,37 +429,37 @@ header div {
       height: 2%;
       z-index: 99; }
     .venimos p {
+      font-size: 1em;
       margin: 1.2em;
       margin-bottom: 3em; } }
 @media screen and (min-width: 1200px) {
   /* DE DONDE VENIMOS */
   .venimos {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
     text-align: justify;
     display: grid;
     grid-template-columns: 1fr 1fr 200px; }
     .venimos h2 {
       font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 36px;
+      font-size: 3em;
       font-weight: 100;
       text-align: left;
       padding: .4em; }
     .venimos img {
       -webkit-transform: translateY(-120px);
               transform: translateY(-120px);
-      /*margin-top: -20vh;*/
-      width: 27vw;
-      height: 73vh;
+      width: 28vw;
+      height: 70vh;
       z-index: 99;
       margin-left: 10em; }
     .venimos p {
+      font-size: 1em;
       margin: 1.2em;
       margin-bottom: 3em; } }
 /*INVITADAS*/
 .invitadas h2 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 100;
   text-align: left;
   margin: .3em;
@@ -475,7 +473,7 @@ header div {
   /*INVITADAS*/
   .invitadas h2 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 100;
     text-align: left;
     margin: .3em;
@@ -661,7 +659,7 @@ header div {
       font-weight: 50;
       text-align: center;
       margin: .3em;
-      color: white;
+      color: #FFFFFF;
       margin-top: -2em; }
     .novedades .escucha {
       margin: 5vw;
@@ -678,7 +676,7 @@ header div {
       background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
       -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
               box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
-      color: white;
+      color: #FFFFFF;
       border: none; } }
 @media screen and (min-width: 1200px) {
   /* NOVEDADES */
@@ -702,7 +700,7 @@ header div {
       font-weight: 50;
       text-align: center;
       margin: .3em;
-      color: white;
+      color: #FFFFFF;
       margin-top: -2em; }
     .novedades .escucha {
       margin: 5vw;
@@ -719,7 +717,7 @@ header div {
       background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
       -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
               box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
-      color: white;
+      color: #FFFFFF;
       border: none; } }
 /* FOOTER */
 footer {
@@ -826,7 +824,7 @@ footer {
               justify-content: right;
       -ms-flex-line-pack: center;
           align-content: center;
-      background-color: blue;
+      background-color: #0000EC;
       width: 320px;
       height: 224px;
       right: 0; }
@@ -845,7 +843,7 @@ footer {
       padding: 0em 1em;
       list-style: none;
       line-height: 1em;
-      color: white;
+      color: #FFFFFF;
       list-style: none;
       margin-top: 1.5em;
       text-align: left; }
@@ -853,7 +851,7 @@ footer {
       color: #00F3BB;
       text-decoration: line-through; }
     header div a {
-      color: white;
+      color: #FFFFFF;
       text-decoration: none;
       text-transform: uppercase; }
     header div a:hover {
@@ -898,7 +896,7 @@ footer {
               justify-content: right;
       -ms-flex-line-pack: center;
           align-content: center;
-      background-color: blue;
+      background-color: #0000EC;
       width: 320px;
       height: 224px;
       right: 0; }
