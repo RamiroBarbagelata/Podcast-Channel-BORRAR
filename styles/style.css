@@ -75,7 +75,13 @@ header div {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .intro h1 {
     display: inline;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -98,7 +104,6 @@ header div {
     .intro p .abajo {
       display: inline; }
   .intro .conoce_mas {
-    margin: 5vw;
     width: 18em;
     height: 3em;
     font-family: 'IBM Plex Mono', monospace;
@@ -125,7 +130,13 @@ header div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset; }
     .intro h1 {
       display: inline;
       font-family: 'IBM Plex Sans', sans-serif;
@@ -134,7 +145,7 @@ header div {
       padding: 0em .4em;
       line-height: 2em;
       text-align: left;
-      margin-left: 3em; }
+      margin-left: 2em; }
     .intro .world_tachado {
       display: inline;
       text-decoration: line-through; }
@@ -146,11 +157,11 @@ header div {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 1em;
       margin: 1em;
-      margin-left: 7.7em; }
+      margin-left: 5.4em; }
       .intro p .abajo {
         display: block; }
     .intro .conoce_mas {
-      margin: 2em;
+      margin: 1em;
       width: 18em;
       height: 3em;
       font-family: 'IBM Plex Mono', monospace;
@@ -159,7 +170,7 @@ header div {
       background: #00F3BB;
       text-align: center;
       border: none;
-      margin-left: 7.5em; }
+      margin-left: 5.4em; }
     .intro button:hover {
       background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
       -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
@@ -177,7 +188,13 @@ header div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset; }
     .intro h1 {
       display: inline;
       font-family: 'IBM Plex Sans', sans-serif;
@@ -607,6 +624,19 @@ header div {
               align-self: center; } }
 /* NOVEDADES */
 .novedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: linear-gradient(225deg, #0000FF 100%, #0000A3 100%);
   -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
@@ -620,7 +650,6 @@ header div {
     color: white;
     margin-bottom: 10%; }
   .novedades .escucha {
-    margin: 5vw;
     margin-bottom: 10%;
     width: 18em;
     height: 3em;
